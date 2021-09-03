@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="rg_index">
+  <!-- 搜索框 -->
+  <SearchInput></SearchInput>
+  111222
+</view>
+  
