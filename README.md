@@ -23,9 +23,9 @@ https://mp.weixin.qq.com/
 
 创建：
 
-![创建项目](./img/create-minigram.jpg)
+![创建项目]
 
-![效果](./img/project-init.jpg)
+![效果]
 
 删除无关代码，以便重新构建项目：
 
@@ -112,13 +112,13 @@ https://mp.weixin.qq.com/
 
 `ctr+s`
 
-![img](./img/pages.jpg)
+![img]
 
 #### 使用字体
 
 1. 阿里巴巴字体图标库：
 
-![icfont](./img/icfont.jpg)
+![icfont]
 
 2. 在项目`styles`目录下创建`icfont.wxss`文件，复制以上链接的代码。
 
@@ -138,7 +138,7 @@ https://mp.weixin.qq.com/
 
 为了方便，在阿里的图标字体库，下载`png`图片,然后放入文件夹`icons`下
 
-![tabbar](./img/downloadicons.jpg)
+![tabbar]
 
 在`app.json`加入配置项`tabBar`
 
@@ -177,7 +177,7 @@ https://mp.weixin.qq.com/
 
 此时底部效果就出来了
 
-![底部效果](./img/bottom-xiaoguo.jpg)
+![底部效果]
 
 ## 搜索框
 
@@ -197,7 +197,7 @@ https://mp.weixin.qq.com/
   ```
 
   我们用vscode编写代码，用微信开发者工具预览，在vscode中下载插件，小程序开发助手和 Easy WXLESS，点击设置打开，右上角的json设置
-  ![json-settings](./img/json-settings.jpg)
+  ![json-settings]
   添加配置：保存less会在当前目录生成一个对应的wxml
 ```json
 "less.compile": {
@@ -229,4 +229,4 @@ https://mp.weixin.qq.com/
 </view>
 ```
 效果：点击搜索框会跳转到搜索页
-![搜索框效果](./img/search.jpg)
+![搜索框效果]

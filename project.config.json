@@ -4,7 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": true,
     "postcss": true,
@@ -39,9 +39,9 @@
     "showES6CompileOption": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.19.0",
-  "appid": "wxf256a5ef2c898c33",
-  "projectname": "miniprogram-regou",
+  "libVersion": "2.19.2",
+  "appid": "wx0a2c7053161ddfdf",
+  "projectname": "mini-pro",
   "debugOptions": {
     "hidedInDevtools": []
   },
