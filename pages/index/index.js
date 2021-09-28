@@ -16,7 +16,7 @@ Page({
     // 分类导航数据
     navList: [],
     // 楼层数据
-    froolList:[]
+    floorList:[]
   },
 
   /**
@@ -25,6 +25,7 @@ Page({
   onLoad: function (options) {
     this.getSwiperList();
     this.getNavList();
+    this.getFloorList();
 
     // wx.showToast({
     //   title:'Hello World'
@@ -64,6 +65,17 @@ Page({
     }).then((res)=>{
       this.setData({
         navList: res.data.navList
+      })
+    })
+  },
+
+  // 获取楼层数据请求
+  getFloorList(){
+    request({
+      url: '/2092201?/home/floordata'
+    }).then(res=>{
+      this.setData({
+        floorList: res.data.floorList
       })
     })
   },

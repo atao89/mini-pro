@@ -37,6 +37,19 @@
 
     <!-- 楼层 -->
     <view class="index_floor">
-        
+        <view class="floor" wx:for="{{floorList}}" wx:for-item="item1" wx:for-index="index1" wx:key="floor_title">
+            <!-- 标题 -->
+            <view class="floor_title">
+                <text class="floor_title_text">{{item1.floor_title}}</text>
+                <!-- <image mode="widthFix" src="{{item1.image_src}}" /> -->
+            </view>
+            <!-- 内容 -->
+            <div class="floor_list">
+                <navigator url="/pages/good_list/index?query={{item1.floor_title}}" wx:for="{{item1.product_list}}"
+                    wx:for-item="item2" wx:for-index="index2" wx:key="name">
+                    <image mode="{{index2 == 0 ? 'widthFix' : 'scaleToFill'}}" src="{{item2.image_src}}" />
+                </navigator>
+            </div>
+        </view>
     </view>
 </view>
